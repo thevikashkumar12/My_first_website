@@ -4,6 +4,7 @@ from . import views
 
 urlpatterns = [
     path('',views.form),
-    path('about/',views.about)
+    path('about/',views.about),
+    path('comments/',views.comment)
 
 ]

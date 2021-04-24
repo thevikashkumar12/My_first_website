@@ -18,5 +18,8 @@ def form(request):
 def about(request):
     return render(request,'about.html')
 
+def comment(request):
+    return render(request,'comments.html')
+
 
 
